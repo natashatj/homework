@@ -1,0 +1,38 @@
+body {
+  background-color: #66CCFF;
+}
+
+h1 {
+  font-family: Cooper Black;
+  text-align: center;
+  text-shadow:2px 2px #009933;
+  color: #00CC66;
+}
+
+.form_style {
+  font-family: Courier;
+}
+
+#field_style {
+  border: 3px dashed #009933;
+  background-color: #ADEBFF;
+  box-shadow: 10px 10px 5px #99FF99;
+  border-radius: 20px;
+}
+
+div {
+  text-align: center;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 2px;
+  border: 2px solid #99FF99;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Natasha's Profile</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>My Profile</h1>
+<img src="https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10487415_10202324420607613_9058742515357097980_n.jpg?oh=f878324ef7a554b41ed35eec5109a353&oe=55FC0C3B">
+<form method="post" action="/profile/edit" class="form_style">
+<div>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email">
+</div>
+<div>
+  <label for="password">Password:</label>
+  <input type="password" name="password" id="password">
+</div>
+<div>
+Gender:
+  Male: <input type="radio" name="gender" id="M">
+  Female: <input type="radio" name="gender" id="F">
+</div>
+<div>
+  <label for="first_name">First Name:</label>
+  <input type="first_name" name="first_name" id="first_name">
+</div>
+<div>
+  <label for="last_name">Last Name:</label>
+  <input type="last_name" name="last_name" id="last_name">
+</div>
+<div>
+  <select>
+    <optgroup label="USA">
+      <option>Massachusetts</option>
+      <option>California</option>
+      <option>Connecticut</option>
+    </optgroup>
+    <optgroup label="Canada">
+      <option>Quebec</option>
+      <option>British Columbia</option>
+      <option>Ontario</option>
+    </optgroup>
+  </select>
+</div>
+<fieldset id="field_style">
+  <legend>Education</legend>
+  <span>High School:</span><input type="text">
+  <span>College:</span><input type="text">
+  <span>Graduate School:</span><input type="text">
+</fieldset>
+<fieldset id="field_style">
+  <legend>Employment History</legend>
+  <ul>
+    <li></li><input type="text">
+    <li></li><input type="type">
+    <li></li><input type="text">
+  </ul>
+</fieldset>
+<button type="submit">Submit</button>
+</form>
+
+
+</body>
+</html>
