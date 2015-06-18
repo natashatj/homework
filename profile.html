@@ -2,34 +2,35 @@
 <html>
 <head>
   <title>Natasha's Profile</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>My Profile</h1>
 <img src="https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10487415_10202324420607613_9058742515357097980_n.jpg?oh=f878324ef7a554b41ed35eec5109a353&oe=55FC0C3B">
 <form method="post" action="/profile/edit" class="form_style">
-<div>
+<div class="form-group">
   <label for="email">Email:</label>
-  <input type="email" name="email" id="email">
+  <input type="text" name="email" class="form-control" id="email">
 </div>
-<div>
+<div class="form-group">
   <label for="password">Password:</label>
-  <input type="password" name="password" id="password">
+  <input type="password" name="password" class="form-control" id="password">
 </div>
-<div>
-Gender:
-  Male: <input type="radio" name="gender" id="M">
-  Female: <input type="radio" name="gender" id="F">
+<div> <strong> Gender: </strong> </div>
+<div class="form-group">
+  Male: <input type="radio" name="gender" class="radio-inline" id="M">
+  Female: <input type="radio" name="gender" class="radio-inline" id="F">
 </div>
-<div>
+<div class="form-group">
   <label for="first_name">First Name:</label>
-  <input type="first_name" name="first_name" id="first_name">
+  <input type="type" name="first_name" class="form-control" id="first_name">
 </div>
-<div>
+<div class="form-group">
   <label for="last_name">Last Name:</label>
-  <input type="last_name" name="last_name" id="last_name">
+  <input type="type" name="last_name" class="form-control" id="last_name">
 </div>
-<div>
+<div class="form-group">
   <select>
     <optgroup label="USA">
       <option>Massachusetts</option>
